@@ -1,0 +1,8 @@
+1. Open Putty
+2. in Session goto LOGGING 
+3. Under Session Logging change the option to All session output
+4. Give the path to save the file in your local directory Ex : C:\Users\srich\Desktop\AWS\&H-&Y&M&D-&T.log 
+5. &H-&Y&M&D-&T means that it will create new file everytime (13.59.192.189-20190831-220234) you open a new putty rather 
+than adding in a single file which gets huge or you can even give a name that you can remember.
+6. You should be all set now, add the ppk for authentication and open the session. 
+7. Once you login, everything you type will be logged.
