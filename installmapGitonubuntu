@@ -1,0 +1,28 @@
+installing GIT in ubuntu
+1. login to terminal
+2. sudo su root
+3. apt-get install git
+-- bindings to GIT
+4. git config --global user.name "ssankabathula"
+5. git config --global user.email "ssankabathula@gmail.com"
+-- bindings to GIT
+6. git clone https://github.com/ssankabathula/ubuntutoGIT.git
+7. git pull  https://github.com/ssankabathula/ubuntutoGIT.git (to get the latest change from GITHUB)
+8. git push -u https://github.com/ssankabathula/jenkinsinteGIT.git (to push the change to master)
+9. git status (to see if the changes re tracked my GIT if the file is red its not tracking else it would ne green)
+10.git add filename (to track the change to move the file from red to green)
+11.git commit -a (commits all files which are tracked)
+
+
+
+Below cmd is to create a repo on GITHUB from ubuntu terminal(cmd line)
+curl -u ssankabathula@gmail.com https://api.github.com/user/repos -d '{"name":"SrirepousingAPi"}'
+
+jenkins will start tracking the changes on the folder
+git init foldername 
+
+
+below cmd is to bind local orgin to github
+curl -u ssankabathula@gmail.com https://api.github.com/user/repos -d '{"name":"jenkinsinteGIT"}'
+git remote add orgin https://github.com/ssankabathula/jenkinsinteGIT.git
+
